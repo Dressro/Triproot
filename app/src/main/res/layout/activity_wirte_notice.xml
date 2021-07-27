@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbrown"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="654dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"
+        android:background="@color/colororange">
+
+        <Button
+            android:id="@+id/noticeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="546dp"
+            android:layout_marginBottom="111dp"
+            android:background="@drawable/button"
+            android:text="공지사항 등록" />
+
+        <EditText
+            android:id="@+id/notice"
+            android:layout_width="match_parent"
+            android:layout_height="293dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/item"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="공지 작성"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/noticeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="39dp"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/item"
+            android:ems="10"
+            android:hint="공지사항 제목"
+            android:inputType="textPersonName" />
+    </RelativeLayout>
+
+</RelativeLayout>

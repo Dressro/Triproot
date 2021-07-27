@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbrown"
+>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="654dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"
+        android:background="@color/colororange">
+
+        <Button
+            android:id="@+id/enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="532dp"
+            android:layout_marginBottom="80dp"
+            android:text="확인" />
+
+        <TextView
+            android:id="@+id/enternotice"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:layout_marginTop="156dp"
+            android:text="TextView"
+            android:background="@drawable/item"/>
+
+        <TextView
+            android:id="@+id/enternoticetitle"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="44dp"
+            android:text="TextView"
+            android:background="@drawable/item"/>
+    </RelativeLayout>
+
+</RelativeLayout>

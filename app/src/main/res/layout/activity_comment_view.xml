@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbrown">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"
+        android:background="@color/colororange">
+
+        <Button
+            android:id="@+id/commentbutton"
+            android:layout_width="144dp"
+            android:layout_height="64dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="516dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="38dp"
+            android:background="@drawable/button"
+            android:text="등록" />
+
+        <Button
+            android:id="@+id/finishbutton"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="17dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="댓글 창 지우기" />
+
+        <EditText
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="516dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/edittext"
+            android:ems="10"
+            android:hint="댓글"
+            android:inputType="textPersonName" />
+
+        <ListView
+            android:id="@+id/commentlist"
+            android:layout_width="401dp"
+            android:layout_height="382dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="69dp"
+            android:background="@drawable/item" />
+    </RelativeLayout>
+
+</RelativeLayout>
